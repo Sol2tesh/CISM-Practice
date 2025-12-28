@@ -3,11 +3,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+
   <title>CISM Practice • Exam Mode</title>
+
+  <!-- PWA manifest -->
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" href="icon-192.png" />
+
+  <!-- Theme color -->
+  <meta name="theme-color" content="#0b58ff" />
+
+  <!-- Icons (Android/desktop) -->
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png" />
+
+  <!-- iOS "Add to Home Screen" support -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="CISM Practice" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="landing.css" />
 </head>
+
+
+
+
+  
 <body class="landing" data-page="exam" data-mode="exam">
   <div class="app-shell">
     <aside class="sidebar" aria-label="Primary">
