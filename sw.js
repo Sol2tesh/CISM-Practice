@@ -1,6 +1,6 @@
 
 // Bump cache version whenever assets change to ensure users get the latest build.
-const CACHE_NAME = 'cism-pwa-v4';
+const CACHE_NAME = 'cism-pwa-v5';
 const ASSETS = [
   './',
   './index.html',
