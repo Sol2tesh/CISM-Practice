@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b58ff" />
+  <title>CISM Practice</title>
+
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png" />
+  <link rel="stylesheet" href="landing.css" />
+</head>
+
+<body class="landing">
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <img src="icon-192.png" alt="" />
+        </div>
+        <div class="brand-text">
+          <div class="brand-name">CISM Practice</div>
+          <div class="brand-tag">Quiz mode • Exam mode • Analytics</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a class="nav-item active" href="index.html">
+          <span class="nav-ico">🏠</span><span>Home</span>
+        </a>
+        <a class="nav-item" href="practice.html">
+          <span class="nav-ico">📝</span><span>Start Practice</span>
+        </a>
+        <a class="nav-item" href="practice.html#progress">
+          <span class="nav-ico">📊</span><span>Progress</span>
+        </a>
+        <a class="nav-item" href="practice.html#review">
+          <span class="nav-ico">❌</span><span>Review Mistakes</span>
+        </a>
+        <a class="nav-item" href="practice.html#upgrade">
+          <span class="nav-ico">💎</span><span>Upgrade</span>
+        </a>
+        <a class="nav-item" href="practice.html#resources">
+          <span class="nav-ico">📚</span><span>Study Resources</span>
+        </a>
+      </nav>
+
+      <div class="stats">
+        <div class="stats-title">Your stats</div>
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-value" id="statQuizzes">0</div>
+            <div class="stat-label">Quizzes</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value" id="statAccuracy">0%</div>
+            <div class="stat-label">Accuracy</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <span class="pill">Offline-ready PWA</span>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle theme">🌞</button>
+        <a class="btn ghost" href="practice.html">Sign In</a>
+      </header>
+
+      <section class="hero">
+        <h1>Pass Your CISM Exam on Your First Try</h1>
+        <p>
+          Master all 4 CISM domains with realistic questions, explanations, and smart review tools.
+          Build confidence fast with practice mode or a timed exam simulation.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="practice.html">Start Practice →</a>
+          <a class="btn subtle" href="exam.html">Start Exam</a>
+        </div>
+
+        <div class="hero-badges">
+          <span class="badge">1250 questions</span>
+          <span class="badge">Domain filters</span>
+          <span class="badge">Bookmarks & weak areas</span>
+          <span class="badge">Works offline</span>
+        </div>
+      </section>
+
+      <section class="feature-grid" aria-label="Highlights">
+        <article class="card">
+          <div class="card-ico">📚</div>
+          <h3>1000+ Practice Questions</h3>
+          <p>Comprehensive coverage across all 4 domains with exam-style scenarios and choices.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-ico">🎯</div>
+          <h3>Domain-Level Mastery</h3>
+          <p>Filter by Domain 1–4, focus on weak areas, and drill the topics you need most.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-ico">📈</div>
+          <h3>Progress Analytics</h3>
+          <p>Track your accuracy, review mistakes, and build a personalized study plan.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-ico">📱</div>
+          <h3>Study Anywhere</h3>
+          <p>Fast, mobile-friendly, and installable as an app (PWA) for offline study sessions.</p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-links">
+          <a href="practice.html#contact">Contact</a>
+          <span class="dot">•</span>
+          <a href="practice.html#privacy">Privacy Policy</a>
+          <span class="dot">•</span>
+          <a href="practice.html#terms">Terms of Service</a>
+        </div>
+        <div class="footer-copy">© 2025 CISM Practice. All rights reserved.</div>
+      </footer>
+    </main>
+  </div>
+
+  
+</body>
+</html>
